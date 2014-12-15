@@ -330,7 +330,7 @@ code, tt {
     font-size: 0.85em;
     white-space: pre-wrap;
     border: #E3EDF3 1px solid;
-    background: #F7FAFB;
+    background: #D5F660;
     border-radius: 2px;
 }
 
@@ -345,7 +345,7 @@ pre {
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
-    background: #F7FAFB;
+    background: #D5F660;
     border-radius: 3px;
 }
 
