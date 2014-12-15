@@ -7,11 +7,11 @@
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
         <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
     </nav>
-    {{> topmenu}}
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{@blog.title}}</h1>
             <h2 class="page-description">{{@blog.description}}</h2>
+    {{> topmenu}}
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
