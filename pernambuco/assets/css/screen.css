@@ -199,7 +199,7 @@ h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    color: #2E2E2E;
+    color: #4DDE00;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: "Open Sans", sans-serif;
@@ -233,12 +233,12 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #739400;
     transition: color ease 0.3s;
 }
 
 a:hover {
-    color: #111;
+    color: #BDF400;
 }
 
 p, ul, ol, dl {
@@ -297,7 +297,7 @@ blockquote {
     box-sizing: border-box;
     margin: 1.75em 0 1.75em -2.2em;
     padding: 0 0 0 1.75em;
-    border-left: #4A4A4A 0.4em solid;
+    border-left: #739400 0.4em solid;
 }
 
 blockquote p {
@@ -576,7 +576,7 @@ margin on the iframe, cause it breaks stuff. */
     height: 38px;
     padding: 0 15px 0 10px;
     border: transparent 1px solid;
-    color: #9EABB3;
+    color: #00A876;
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
@@ -602,7 +602,7 @@ margin on the iframe, cause it breaks stuff. */
     height: 38px;
     padding: 0 20px;
     border: transparent 1px solid;
-    color: #9EABB3;
+    color: #00A876;
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
@@ -656,7 +656,7 @@ margin on the iframe, cause it breaks stuff. */
 .back-button:hover,
 .subscribe-button:hover {
     border-color: #bfc8cd;
-    color: #9EABB3;
+    color: #00A876;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -768,7 +768,7 @@ body:not(.post-template) .post-title {
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
-    color: #9EABB3;
+    color: #00A876;
 }
 
 .author-thumb {
@@ -780,7 +780,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-meta a {
-    color: #9EABB3;
+    color: #00A876;
     text-decoration: none;
 }
 
@@ -926,14 +926,14 @@ body:not(.post-template) .post-title {
     font-size: 1.4rem;
     line-height: 1;
     font-style: italic;
-    color: #9EABB3;
+    color: #00A876;
 }
 
 .author-meta a {
-    color: #9EABB3;
+    color: #00A876;
 }
 .author-meta a:hover {
-    color: #111;
+    color: #BDF400;
 }
 
 /* Create some space to the right for the share links */
@@ -942,7 +942,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-footer h4 a {
-    color: #2e2e2e;
+    color: #4DDE00;
     text-decoration: none;
 }
 
@@ -965,7 +965,7 @@ body:not(.post-template) .post-title {
     font-size: 1.8rem;
     display: inline-block;
     margin: 1rem 1.6rem 1.6rem 0;
-    color: #BBC7CC;
+    color: #8BE65A;
     text-decoration: none;
 }
 
@@ -1215,12 +1215,12 @@ body:not(.post-template) .post-title {
     margin: 4rem auto;
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
-    color: #9EABB3;
+    color: #00A876;
     text-align: center;
 }
 
 .pagination a {
-    color: #9EABB3;
+    color: #00A876;
     transition: all 0.2s ease;
 }
 
@@ -1303,11 +1303,11 @@ body:not(.post-template) .post-title {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
-    color: #BBC7CC;
+    color: #8BE65A;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #8BE65A;
     text-decoration: none;
     font-weight: bold;
 }
@@ -1494,13 +1494,13 @@ body:not(.post-template) .post-title {
         height: 44px;
         line-height: 41px;
         border-radius: 0;
-        color: #2e2e2e;
+        color: #4DDE00;
         background: transparent;
     }
     .back-button:hover,
     .subscribe-button:hover {
         border-color: #ebeef0;
-        color: #2e2e2e;
+        color: #4DDE00;
         background: #ebeef0;
     }
 
